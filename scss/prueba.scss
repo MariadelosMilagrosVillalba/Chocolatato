@@ -1,0 +1,200 @@
+
+@import nav
+body {
+    
+
+   
+     
+    background-image: url(https://img.freepik.com/vector-premium/fondo-dulce-vector-remolino-caramelo_87946-85.jpg?w=2000); 
+
+.grid-container {
+    box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75); 
+    border-radius: 4px;
+    padding: 10px;
+    text-align: center;
+    display: grid;
+    gap: 10px;
+    grid-template-areas: 
+    "header"
+    "nav"
+    "main"
+    "footer";
+   
+}
+.header {
+    color: rgb(0, 0, 0) ;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 100px;
+    font-style: Italic;
+    overflow: hidden;
+
+}
+footer {
+    background-color: pink;
+    height: 90%;
+}
+nav {
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    align-items: center;
+    width: 1100px;
+    margin: auto;
+    ul{
+        list-style: none;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: -o-flex;
+    display: flex;
+    li {
+        a {
+            text-decoration: none;
+            color: black;
+            transition: all .5s ease;
+            display: block;
+            padding: 20px;
+            border:  black 2px;
+            font-size: small;
+            ;
+            &:hover {
+                color: #000;
+    background: #fff; 
+            }
+        }
+    }
+    }
+    
+    }
+    main {
+        .subtitulo-1 {
+            font-size: medium;
+            
+        }
+        .subtitulo-2 {
+            font-size: medium;
+            text-align: left;
+        }
+        .flex-container {
+         position: relative;
+         width: 100vw;
+         height: 100vh;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         {
+            .img1 {
+                height: auto;
+                width: auto;
+                max-height: 300px;
+                max-width: 300px;
+                position: absolute;
+                top: 50px;
+                left: 660px;
+                                     }            
+             .img2 {
+                height: auto;
+                width: auto;
+                max-height: 300px;
+                max-width: 300px;
+            position: absolute;
+            top: 300px;
+            left: 300px;
+             }
+             .container-img {
+                width: 100%;
+                max-width: 1100px;
+                margin: auto;
+                margin-top: 60px;
+                margin-bottom: 60px;
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                grid-template-rows: 250px;
+                .box-img {
+                    width: 100%;
+                    height: 100%;
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                    }   
+
+                }
+                
+            }
+
+        }
+        }
+  
+         .tabla-index {
+    
+            text-align: center;
+            width: 100%;
+          
+        }
+        
+        .formulario1 {
+            border: solid 5px black;
+            width: 400px;
+            padding: 20px;
+            margin: 30px;
+            
+        }
+   
+   
+    }
+
+    .texto-encima1 {
+        color: rgb(0, 0, 0) ;
+        font-family: 'Alegreya Sans', sans-serif;
+        font-size: 25px;
+        font-style: Italic;
+        position: absolute;
+        top: auto;
+        left: 25%;
+        color: palevioletred;
+    
+    }
+    .texto-encima2 {
+        color: rgb(0, 0, 0) ;
+        font-family: 'Alegreya Sans', sans-serif;
+        font-size: 25px;
+        font-style: Italic;
+        position: absolute;
+        top: auto;
+        left: 42%;
+        color: palevioletred;
+    
+    }
+    .texto-encima3 {
+        color: rgb(0, 0, 0) ;
+        font-family: 'Alegreya Sans', sans-serif;
+        font-size: 25px;
+        font-style: Italic;
+        position: absolute;
+        top: 35%;
+        left: 80%;
+        
+        color: palevioletred;
+    
+    }
+    .texto-encima4 {
+        color: rgb(0, 0, 0) ;
+        font-family: 'Alegreya Sans', sans-serif;
+        font-size: 25px;
+        font-style: Italic;
+        position: absolute;
+        top: 80%;
+        left: 20%;
+        
+        color: palevioletred;
+    
+    }
+    
+    .card-header {
+        background-color: pink;
+    }
+    .card-body {
+        background-color: grey;
+    }
+    
+}

@@ -6,6 +6,7 @@ body {
      
         background-image: url(https://img.freepik.com/vector-premium/fondo-dulce-vector-remolino-caramelo_87946-85.jpg?w=2000); 
     }
+    /* Mi grid */
 
 .grid-container {
     box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75); 
@@ -23,6 +24,7 @@ body {
     "main"
     "footer";
 }
+/* Header index */
 .header {
     color: rgb(0, 0, 0) ;
     font-family: 'Alegreya Sans', sans-serif;
@@ -39,15 +41,18 @@ header {
 nav {
     background-image: url(https://thumbs.dreamstime.com/b/fondo-con-las-tortas-63489155.jpg);
 }
+/* Main */
 main {
 
 
 }
+
+/* Footer */
 footer {
     background-color: pink;
     height: 90%;
 }
-
+/* Mi nav de todas las paginas */
 .nav ul {
     list-style: none;
     display: -webkit-flex;
@@ -213,7 +218,7 @@ left: 300px;
 
 
 
-
+/* Responsive */
 
 @media screen and (max-width: 1200px) {
     .img1 {
@@ -264,3 +269,6 @@ left: 300px;
        }
 }
 
+div {
+    color: red;
+}
